@@ -36,9 +36,7 @@ const makeToken = (tokens, char, index, arrOfChar) {
 }
 
 const tokenize = (str) => {
-  return str.split("")
-  					.reduce(makeToken, [])
-  	
+  return str.split("").reduce(makeToken, [])
 }
 ```
 
